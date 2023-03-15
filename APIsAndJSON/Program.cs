@@ -15,7 +15,7 @@ namespace APIsAndJSON
             var client = new HttpClient();
             var quote = new RonVSKanyeAPI(client);
 
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < 3; i++)
             {
                 Console.WriteLine($"kanye: {quote.Kanye()}");
                 Console.WriteLine($"Ron Swanson once said: {quote.Ron()}");
